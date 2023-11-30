@@ -8,7 +8,7 @@ UniPark es un proyecto que utiliza el modelo de Regresión KNN para calcular la 
 ### ClimaActual.py
 
 Esta sección describe el archivo `ClimaActual.py`, el cual proporciona información climática actual mediante la API de OpenWeatherMap.
-
+#### Parámetros:
 ```http
 ```
 | Parámetros | Tipo     | Descripción                |
