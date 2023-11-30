@@ -20,5 +20,5 @@ Esta sección describe el archivo `ClimaActual.py`, el cual proporciona informac
 http://api.openweathermap.org/data/2.5/weather?lat={latitud}&lon={longitud}&appid={api_key}
 ```
 
-**Openweathermap:** https://openweathermap.org/api# UniPark
+**Openweathermap:** https://openweathermap.org/api
 
