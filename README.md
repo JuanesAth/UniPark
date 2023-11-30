@@ -1,16 +1,27 @@
+
 # UniPark
-Proyecto el cual arroja la probabilidad de Encontrar parqueadero según los datos suministrados (Dia, Hora, Clima, Plazas ocupadas), con el Modelo de Regresión KNN.
+
+UniPark es un proyecto que utiliza el modelo de Regresión KNN para calcular la probabilidad de encontrar un parqueadero, teniendo en cuenta diversos datos como el día, la hora, el clima y las plazas ocupadas.
+
 ## API Reference
+
+### ClimaActual.py
+
+Esta sección describe el archivo `ClimaActual.py`, el cual proporciona información climática actual mediante la API de OpenWeatherMap.
+
+#### Parámetros:
+
 ```http
 ```
-**ClimaActual.py**
-| Parameter | Type     | Description                |
+| Parámetro | Tipo     | Descripción                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Tu API key |
-| `latitud` | `int` | **Required**. Tu Latitud |
-| `longitu` | `int` | **Required**. Tu Longitud |
+| `api_key` | `string` | **Requerido**. Tu clave de API para OpenWeatherMap |
+| `latitud` | `int`    | **Requerido**. Tu latitud |
+| `longitud` | `int`   | **Requerido**. Tu longitud |
+
 
 API call: http://api.openweathermap.org/data/2.5/weather?lat={latitud}&lon={longitud}&appid={api_key}
 
 
-**Openweathermap:** https://openweathermap.org/api
+**Openweathermap:** https://openweathermap.org/api# UniPark
+
